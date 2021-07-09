@@ -20,7 +20,7 @@ class CalendarsController < ApplicationController
   params.require(:plan).permit(:date, :plan)
   end
 
-  def getWeek
+  def get_week
 
     require 'date'
 
